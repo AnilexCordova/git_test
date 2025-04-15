@@ -27,6 +27,7 @@ public class CommonFunction
 		LoginPOM.password.sendKeys("123456");
 		LoginPOM.loginButton.click();
 		assert driver.getTitle().equals("TOSS Academy");
+		System.out.println("Login successful");
 				
 	}
 	

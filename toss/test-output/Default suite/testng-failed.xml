@@ -5,7 +5,8 @@
     <classes>
       <class name="commonFunction.CommonFunction">
         <methods>
-          <include name="toss"/>
+          <include name="main"/>
+          <include name="closeBrowser"/>
         </methods>
       </class> <!-- commonFunction.CommonFunction -->
     </classes>
