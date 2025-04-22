@@ -28,6 +28,7 @@ public class CommonFunction
 		LoginPOM.loginButton.click();
 		assert driver.getTitle().equals("TOSS Academy");
 		System.out.println("Login successful");
+		System.out.println("Page title is: " + driver.getTitle());
 				
 	}
 	
